@@ -41,7 +41,7 @@ function Navbar() {
                 {["Services", "Our Contact", "About us", "Insights", "Contact"].map((item, index) => (
                   <a
                     key={index}
-                    className="text-base capitalize font-light py-2 border-b border-zinc-700 hover:text-[#cdea68]"
+                    className="text-base text-white font-bold capitalize  py-2 border-b border-zinc-700 hover:text-[#cdea68]"
                     onClick={() => setIsOpen(false)}
                   >
                     {item}

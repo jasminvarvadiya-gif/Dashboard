@@ -7,7 +7,7 @@ import "locomotive-scroll/dist/locomotive-scroll.css";
 function Marquee() {
   return (
     <>
-      <div data-scroll data-scroll-section='.2'  className="container z-100 relative pt-2 md:pt-5 w-full ">
+      <div data-scroll data-scroll-section='.2'  className="container z-100  sm:z-100 md:z-100 relative pt-2 md:pt-5 w-full ">
         <div className="content w-full">
           <div className="w-full rounded-tl-2xl md:rounded-tl-3xl rounded-tr-2xl md:rounded-tr-3xl py-8 md:py-15 bg-[#004d43] overflow-hidden">
             <div className="flex border-t-2 border-b-2 border-white">
